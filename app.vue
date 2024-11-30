@@ -1,6 +1,11 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <header>
+      <h1>My Nuxt App</h1>
+    </header>
+    <main>
+      <!-- Nuxtのページをここにレンダリング -->
+      <NuxtPage />
+    </main>
   </div>
 </template>
