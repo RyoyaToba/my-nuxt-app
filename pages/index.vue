@@ -1,12 +1,12 @@
 <template>
     <div>
         <h1>Hello, World!</h1>
-        <p>Wellcome to my first Nuxt.js!</p>
+        <HelloWorld/>
     </div>
 </template>
 
 <script setup>
-
+import HelloWorld from '~/components/HelloWorld.vue'
 </script>
 
 <style>
