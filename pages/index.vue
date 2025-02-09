@@ -1,11 +1,10 @@
 <template>
-    <div>
-        <h1>家計簿アプリ</h1>
-    </div>
+    <headerTab></headerTab>
     <sampleTable :columns="columns" :data="data"></sampleTable>
 </template>
 
 <script setup>
+import headerTab from '~/components/headerTab.vue'
 import sampleTable from '~/components/sampleTable.vue'
 
 // カラム定義
